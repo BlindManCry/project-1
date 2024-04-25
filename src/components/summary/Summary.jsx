@@ -15,6 +15,7 @@ function Summary() {
               item={item}
               index={index}
               txtColors={["#FF5555", "#FFB21E", "#00BB8F", "#1125D6"]}
+              bgColors={["#fff7f7", "#fffcf4", " #f3fcfa", "#f4f5fd"]}
             />
           );
         })}
