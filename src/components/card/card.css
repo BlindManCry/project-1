@@ -1,0 +1,13 @@
+.card-container {
+  width: 736px;
+  border-radius: 32px;
+  display: flex;
+  background-color: #ffffff;
+}
+
+@media screen and (max-width: 480px) {
+  .card-container {
+    width: 375px;
+    flex-direction: column;
+  }
+}

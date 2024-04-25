@@ -1,0 +1,46 @@
+.single-stat {
+  background-color: whitesmoke;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 18px 16px 18px 16px;
+  border-radius: 12px;
+}
+
+.stat-left {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.stat-left span {
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 23.45px;
+  /* color: #ff5555; */
+}
+
+.stat-right {
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 23.45px;
+  text-align: right;
+  color: #303b59;
+}
+
+.stat-right span {
+  opacity: 50%;
+}
+
+@media screen and (max-width: 480px) {
+  .stat-left span {
+    font-size: 16px;
+    line-height: 20.85px;
+  }
+
+  .stat-right {
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 20.85px;
+  }
+}
